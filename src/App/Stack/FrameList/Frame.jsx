@@ -1,6 +1,6 @@
 import React from 'react';
 import roundFloatStr from '../common/roundFloatStr.js';
-import Matrix from '../common/Matrix/Matrix.js';
+import Matrix from '../common/Matrix/Matrix.jsx';
 
 export default function Frame({frame}) {
     const elements = frame.elements.map(roundFloatStr);

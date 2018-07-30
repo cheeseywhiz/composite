@@ -1,7 +1,7 @@
 import React from 'react';
-import Matrix from '../../../common/Matrix/Matrix.js';
-import OperationSelector from './OperationSelector.js';
-import ResetButton from './ResetButton.js';
+import Matrix from '../../../common/Matrix/Matrix.jsx';
+import OperationSelector from './OperationSelector.jsx';
+import ResetButton from './ResetButton.jsx';
 import style from './InputMatrixBase.css';
 
 export default ({matrix, input}) => <div className={style.inputMatrix}>

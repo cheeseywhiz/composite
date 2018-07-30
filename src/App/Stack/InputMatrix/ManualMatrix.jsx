@@ -1,6 +1,6 @@
 import React from 'react';
 import MatrixInput from './common/MatrixInput.js';
-import InputMatrixBase from './common/InputMatrixBase/InputMatrixBase.js';
+import InputMatrixBase from './common/InputMatrixBase/InputMatrixBase.jsx';
 
 export default () => {
     const matrix = {

@@ -1,7 +1,7 @@
 import {connect, } from 'react-redux';
 import actions from '../../../../common/actions.js';
 import selectors from '../../../common/selectors/selectors.js';
-import NumberInput from '../common/NumberInput/NumberInput.js';
+import NumberInput from '../common/NumberInput/NumberInput.jsx';
 
 const mapStateToProps = (state) => ({
     value: selectors.matrix.number(state),

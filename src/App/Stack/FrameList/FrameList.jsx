@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Frame from './Frame.js';
+import Frame from './Frame.jsx';
 import style from './FrameList.css';
 
 export default function FrameList({frames, children}) {

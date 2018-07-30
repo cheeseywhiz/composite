@@ -1,6 +1,6 @@
 import {connect, } from 'react-redux';
 import selectors from '../common/selectors/selectors.js';
-import BaseGraph from './BaseGraph/BaseGraph.js';
+import BaseGraph from './BaseGraph/BaseGraph.jsx';
 
 const mapStateToProps = (state) => ({
     graphObjects: selectors.graphObjects(state),

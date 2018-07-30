@@ -3,11 +3,11 @@ import {connect, } from 'react-redux';
 import {operationNames, } from '../../../common/actions.js';
 import zip from '../../../common/zip.js';
 import selectors from '../../common/selectors/selectors.js';
-import InputMatrixBase from './common/InputMatrixBase/InputMatrixBase.js';
-import RotationMatrix from './RotationMatrix/RotationMatrix.js';
-import ScaleMatrix from './ScaleMatrix/ScaleMatrix.js';
-import TranslationMatrix from './TranslationMatrix.js';
-import ManualMatrix from './ManualMatrix.js';
+import InputMatrixBase from './common/InputMatrixBase/InputMatrixBase.jsx';
+import RotationMatrix from './RotationMatrix/RotationMatrix.jsx';
+import ScaleMatrix from './ScaleMatrix/ScaleMatrix.jsx';
+import TranslationMatrix from './TranslationMatrix.jsx';
+import ManualMatrix from './ManualMatrix.jsx';
 
 const mapStateToProps = (state) => ({
     operation: selectors.base.operation(state),

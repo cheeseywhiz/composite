@@ -8,7 +8,7 @@ const SRC_PATH = path.resolve(ROOT_PATH, 'src');
 module.exports = {
     mode: "development",
     entry: {
-        index: path.resolve(SRC_PATH, 'index.js'),
+        index: path.resolve(SRC_PATH, 'index.jsx'),
     },
     output: {
         path: BUILD_PATH,
@@ -25,7 +25,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.jsx?$/,
                 include: SRC_PATH,
                 loader: 'babel-loader',
                 options: {

@@ -2,8 +2,8 @@ import React from 'react';
 import {connect, } from 'react-redux';
 import actions, {shapeNames, } from '../../../common/actions.js';
 import selectors from '../../common/selectors/selectors.js';
-import Selector from '../../common/Selector.js';
-import FileUpload from './FileUpload/FileUpload.js';
+import Selector from '../../common/Selector.jsx';
+import FileUpload from './FileUpload/FileUpload.jsx';
 import style from './ShapeSelector.css';
 
 // a context manager
