@@ -1,7 +1,0 @@
-{
-    "extends": "google",
-    "parser": "babel-eslint",
-    "rules": {
-        "require-jsdoc": "off"
-    }
-}
